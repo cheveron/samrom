@@ -1,5 +1,4 @@
-SAM Coupé ROM Source
---------------------
+# SAM Coupé ROM Source
 
 This archive contains source code for the SAM Coupé v3.0 ROM, based on the
 original release as ROM0.TXT and ROM1.TXT.  The code has been corrected to
@@ -20,8 +19,8 @@ the ROM fails to execute the bootstrap. The CALL address depends RAM size:
 
 On a 256K SAM use:
 
-   CALL 229385
+   `CALL 229385`
 
 Or on a 512K machine use:
 
-   CALL 491529
+   `CALL 491529`
